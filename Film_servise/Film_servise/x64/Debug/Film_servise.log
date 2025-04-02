@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\source\repos\6daaed73-gr23-repo\Project\Film_servise\Film_servise\main.cpp(245,25): warning C4101: rfgrade: неиспользованная локальная переменная
+  Film_servise.vcxproj -> C:\source\repos\6daaed73-gr23-repo\Project\Film_servise\x64\Debug\Film_servise.exe
