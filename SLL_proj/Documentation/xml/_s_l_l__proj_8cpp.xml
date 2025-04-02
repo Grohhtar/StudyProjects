@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_s_l_l__proj_8cpp" kind="file" language="C++">
+    <compoundname>SLL_proj.cpp</compoundname>
+    <includes refid="classes_8h" local="yes">classes.h</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp</label>
+        <link refid="_s_l_l__proj_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>classes.h</label>
+        <link refid="classes_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>fstream</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_person" prot="public">Person</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_s_l_l__proj_8cpp_1ae2ebd6fa2bb6f25116fd60acc5ddb683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;output, const Person p)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_person" kindref="compound">Person</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp" line="11" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_l_l__proj_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp" line="17" column="5" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp" bodystart="17" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;classes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="struct_person" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_person" kindref="compound">Person</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>age;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">std::ostream&amp;<sp/>operator&lt;&lt;(std::ostream&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_person" kindref="compound">Person</ref><sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Name:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>p.name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>Age<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>p.age<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;int&gt;</ref><sp/>s;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;int&gt;</ref><sp/>sss;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;int&gt;</ref><sp/>kkk;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;std::string&gt;</ref><sp/>lll;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>lll.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(</highlight><highlight class="stringliteral">&quot;abvgd&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//string<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>lll.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(</highlight><highlight class="stringliteral">&quot;abcd&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>lll.<ref refid="class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee" kindref="member">SaveToFile</ref>(</highlight><highlight class="stringliteral">&quot;test1.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>lll.<ref refid="class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1" kindref="member">sort</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>lll.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;Person&gt;</ref><sp/>ppp;<sp/></highlight><highlight class="comment">//structure<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_person" kindref="compound">Person</ref><sp/>a,<sp/>b;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>a.name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Name1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>a.age<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>b.name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Name2&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>b.age<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>ppp.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(a);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>ppp.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(b);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ppp.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(5);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(4);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(3);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(2);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(1);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1" kindref="member">sort</ref>();<sp/><sp/></highlight><highlight class="comment">//sort()<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ss<sp/>=<sp/>s;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;int&gt;</ref><sp/>ss(s);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.print();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kindref="member">insertNode</ref>(9);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.print();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;==================================&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Testing<sp/>of<sp/>several<sp/>things&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.insertNode(-1);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.print();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.sort();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.print();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>sss<sp/>=<sp/>std::move(ss);<sp/><sp/></highlight><highlight class="comment">//move<sp/>operator<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>sss.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ss.print();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;One:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s.<ref refid="class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074" kindref="member">get</ref>(0)-&gt;data<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;==================================&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Serialization<sp/>testing&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;<sp/></highlight><highlight class="comment">//serialization<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee" kindref="member">SaveToFile</ref>(</highlight><highlight class="stringliteral">&quot;test0.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>kkk.<ref refid="class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a" kindref="member">ReadFromFile</ref>(</highlight><highlight class="stringliteral">&quot;test0.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>kkk.<ref refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kindref="member">print</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;==================================&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Move<sp/>constructor<sp/>testing&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;<sp/></highlight><highlight class="comment">//move<sp/>constructor<sp/>testing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;SinglyLinkedlist&lt;int&gt;&gt;<sp/>v;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>v.push_back(<ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist&lt;int&gt;</ref>(s));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>v[0].print();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/SLL_proj.cpp"/>
+  </compounddef>
+</doxygen>

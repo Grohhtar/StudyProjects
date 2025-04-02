@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_singly_linkedlist" xml:lang="en-US">
+<title>SinglyLinkedlist&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>SinglyLinkedlist&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>A class representing a SLL. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;classes.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1ab21c739e2823a5bdf82f01b96b7d07b6"/><emphasis role="strong">SinglyLinkedlist</emphasis> ()</para>
+
+<para>Default constructor. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1a3683f45bb8d8091d6dc688fc566390ff"/><emphasis role="strong">SinglyLinkedlist</emphasis> (<link linkend="_class_singly_linkedlist">SinglyLinkedlist</link> &amp;SLL)</para>
+
+<para>Copy constructor. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1a32007127454dc0d5bac81c235239ecec"/><emphasis role="strong">SinglyLinkedlist</emphasis> (<link linkend="_class_singly_linkedlist">SinglyLinkedlist</link> &amp;&amp;SLL)</para>
+
+<para>Move constructor. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1a333eb330d5ae93fb2abd17fbe72bb18d"/><emphasis role="strong">~SinglyLinkedlist</emphasis> ()</para>
+
+<para>Destructor. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908">insertNode</link> (T data)</para>
+
+<para>A function which adds a new element to the container. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468"/>void <emphasis role="strong">print</emphasis> ()</para>
+
+<para>A function which prints the whole list. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1a6f2995d5c09daa1024c0be1b330319ee"/>void <emphasis role="strong">operator=</emphasis> (const <link linkend="_class_singly_linkedlist">SinglyLinkedlist</link> &amp;SLL)</para>
+
+<para>An overloaded assignment operator. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1ab5918a5cb0348106823b427a5649ea6c"/><link linkend="_class_singly_linkedlist">SinglyLinkedlist</link> &amp; <emphasis role="strong">operator=</emphasis> (<link linkend="_class_singly_linkedlist">SinglyLinkedlist</link> &amp;&amp;SLL)</para>
+
+<para>An overloaded move operator. </para>
+</listitem>
+            <listitem><para>std::shared_ptr&lt; <link linkend="_class_node">Node</link>&lt; T &gt; &gt; <link linkend="_class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074">get</link> (T val)</para>
+
+<para>A function searches for a specific element in the container. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1"/>void <emphasis role="strong">sort</emphasis> ()</para>
+
+<para>A function sorting the list in ascending order, bubble sort algorithm is used. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee">SaveToFile</link> (std::string fname)</para>
+
+<para>A function which saves the current state of the structure to a file. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a">ReadFromFile</link> (std::string fname)</para>
+
+<para>A function which loades state of the structure from a file. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<simplesect><title>template&lt;typename T&gt;<?linebreak?>class SinglyLinkedlist&lt; T &gt;</title></simplesect>
+
+<para>A class representing a SLL. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>SinglyLinkedlist&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>SinglyLinkedlist&lt; T &gt;</primary><secondary>get</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>std::shared_ptr&lt; <link linkend="_class_node">Node</link>&lt; T &gt; &gt; <link linkend="_class_singly_linkedlist">SinglyLinkedlist</link>&lt; T &gt;::get (T val)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>A function searches for a specific element in the container. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>val</entry><entry>
+<para>value of the searched element. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>the searched element, if not presented the head is returned. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908"/><section>
+    <title>insertNode()</title>
+<indexterm><primary>insertNode</primary><secondary>SinglyLinkedlist&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>SinglyLinkedlist&lt; T &gt;</primary><secondary>insertNode</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_singly_linkedlist">SinglyLinkedlist</link>&lt; T &gt;::insertNode (T data)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>A function which adds a new element to the container. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>information to be stored in the new node. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a"/><section>
+    <title>ReadFromFile()</title>
+<indexterm><primary>ReadFromFile</primary><secondary>SinglyLinkedlist&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>SinglyLinkedlist&lt; T &gt;</primary><secondary>ReadFromFile</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_singly_linkedlist">SinglyLinkedlist</link>&lt; T &gt;::ReadFromFile (std::string fname)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>A function which loades state of the structure from a file. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>fname</entry><entry>
+<para>name of the file, where data is stored. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if succesfuul, false if no. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee"/><section>
+    <title>SaveToFile()</title>
+<indexterm><primary>SaveToFile</primary><secondary>SinglyLinkedlist&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>SinglyLinkedlist&lt; T &gt;</primary><secondary>SaveToFile</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_singly_linkedlist">SinglyLinkedlist</link>&lt; T &gt;::SaveToFile (std::string fname)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>A function which saves the current state of the structure to a file. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>fname</entry><entry>
+<para>name of the file, where data will be stored. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if succesfuul, false if no. </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h</section>
+</section>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_node" kind="class" language="C++" prot="public">
+    <compoundname>Node</compoundname>
+    <includes refid="classes_8h" local="no">classes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_node_1ac450c71a8677a38d306361f9ced518d3" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Node&lt; T &gt;::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>Node::data</qualifiedname>
+        <briefdescription>
+<para>Variable which holds data stored in the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="15" column="3" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1aabde3ceb60ec360acf78cfafb12d334e" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_node" kindref="compound">Node</ref>&lt; T &gt; &gt;</type>
+        <definition>std::shared_ptr&lt; Node&lt;T&gt; &gt; Node&lt; T &gt;::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>Node::next</qualifiedname>
+        <briefdescription>
+<para>Pointer to another node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="17" column="17" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_1a0ac1d44cfe588be564acf25485029bd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node&lt; T &gt;::Node</definition>
+        <argsstring>()</argsstring>
+        <name>Node</name>
+        <qualifiedname>Node::Node</qualifiedname>
+        <briefdescription>
+<para>A default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="20" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a0692b16d246460bf94c18d49592facdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node&lt; T &gt;::Node</definition>
+        <argsstring>(T data)</argsstring>
+        <name>Node</name>
+        <qualifiedname>Node::Node</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>A constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information to be stored in the node. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="30" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1ae923d0417581dd19784d55b901f0f7f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node&lt; T &gt;::~Node</definition>
+        <argsstring>()</argsstring>
+        <name>~Node</name>
+        <qualifiedname>Node::~Node</qualifiedname>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="37" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A class representing node. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="10" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_node_1ac450c71a8677a38d306361f9ced518d3" prot="public" virt="non-virtual"><scope>Node</scope><name>data</name></member>
+      <member refid="class_node_1aabde3ceb60ec360acf78cfafb12d334e" prot="public" virt="non-virtual"><scope>Node</scope><name>next</name></member>
+      <member refid="class_node_1a0ac1d44cfe588be564acf25485029bd8" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1a0692b16d246460bf94c18d49592facdd" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1ae923d0417581dd19784d55b901f0f7f0" prot="public" virt="non-virtual"><scope>Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

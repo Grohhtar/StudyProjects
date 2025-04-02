@@ -1,0 +1,132 @@
+\doxysection{Singly\+Linkedlist\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_singly_linkedlist}{}\label{class_singly_linkedlist}\index{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}
+
+
+A class representing a SLL.  
+
+
+
+
+{\ttfamily \#include $<$classes.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_singly_linkedlist_ab21c739e2823a5bdf82f01b96b7d07b6}\label{class_singly_linkedlist_ab21c739e2823a5bdf82f01b96b7d07b6} 
+{\bfseries Singly\+Linkedlist} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_a3683f45bb8d8091d6dc688fc566390ff}\label{class_singly_linkedlist_a3683f45bb8d8091d6dc688fc566390ff} 
+{\bfseries Singly\+Linkedlist} (\mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}} \&SLL)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_a32007127454dc0d5bac81c235239ecec}\label{class_singly_linkedlist_a32007127454dc0d5bac81c235239ecec} 
+{\bfseries Singly\+Linkedlist} (\mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}} \&\&SLL)
+\begin{DoxyCompactList}\small\item\em Move constructor. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_a333eb330d5ae93fb2abd17fbe72bb18d}\label{class_singly_linkedlist_a333eb330d5ae93fb2abd17fbe72bb18d} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Singly\+Linkedlist} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_singly_linkedlist_af88f856a22f1a4178a0b55d27708d908}{insert\+Node}} (T data)
+\begin{DoxyCompactList}\small\item\em A function which adds a new element to the container. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_a593befffa2ecefb24f25d48792f83468}\label{class_singly_linkedlist_a593befffa2ecefb24f25d48792f83468} 
+void {\bfseries print} ()
+\begin{DoxyCompactList}\small\item\em A function which prints the whole list. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_a6f2995d5c09daa1024c0be1b330319ee}\label{class_singly_linkedlist_a6f2995d5c09daa1024c0be1b330319ee} 
+void {\bfseries operator=} (const \mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}} \&SLL)
+\begin{DoxyCompactList}\small\item\em An overloaded assignment operator. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_ab5918a5cb0348106823b427a5649ea6c}\label{class_singly_linkedlist_ab5918a5cb0348106823b427a5649ea6c} 
+\mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}} \& {\bfseries operator=} (\mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}} \&\&SLL)
+\begin{DoxyCompactList}\small\item\em An overloaded move operator. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_node}{Node}}$<$ T $>$ $>$ \mbox{\hyperlink{class_singly_linkedlist_af8bb10b5fcdc71d5bd12e72c78869074}{get}} (T val)
+\begin{DoxyCompactList}\small\item\em A function searches for a specific element in the container. \end{DoxyCompactList}\item 
+\Hypertarget{class_singly_linkedlist_aa970f76dd94eba8526d936c862a56dd1}\label{class_singly_linkedlist_aa970f76dd94eba8526d936c862a56dd1} 
+void {\bfseries sort} ()
+\begin{DoxyCompactList}\small\item\em A function sorting the list in ascending order, bubble sort algorithm is used. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_singly_linkedlist_af3c7c0a6be6038fc9b2d09ee875c35ee}{Save\+To\+File}} (std\+::string fname)
+\begin{DoxyCompactList}\small\item\em A function which saves the current state of the structure to a file. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_singly_linkedlist_ae7058b254d50507e66e60c236bd64b5a}{Read\+From\+File}} (std\+::string fname)
+\begin{DoxyCompactList}\small\item\em A function which loades state of the structure from a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\newline
+class Singly\+Linkedlist$<$ T $>$}
+A class representing a SLL. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_singly_linkedlist_af8bb10b5fcdc71d5bd12e72c78869074}\label{class_singly_linkedlist_af8bb10b5fcdc71d5bd12e72c78869074} 
+\index{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!get@{get}}
+\index{get@{get}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_node}{Node}}$<$ T $>$ $>$ \mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}}$<$ T $>$\+::get (\begin{DoxyParamCaption}\item[{T}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function searches for a specific element in the container. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & value of the searched element. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the searched element, if not presented the head is returned. 
+\end{DoxyReturn}
+\Hypertarget{class_singly_linkedlist_af88f856a22f1a4178a0b55d27708d908}\label{class_singly_linkedlist_af88f856a22f1a4178a0b55d27708d908} 
+\index{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!insertNode@{insertNode}}
+\index{insertNode@{insertNode}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insertNode()}{insertNode()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}}$<$ T $>$\+::insert\+Node (\begin{DoxyParamCaption}\item[{T}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function which adds a new element to the container. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & information to be stored in the new node. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_singly_linkedlist_ae7058b254d50507e66e60c236bd64b5a}\label{class_singly_linkedlist_ae7058b254d50507e66e60c236bd64b5a} 
+\index{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!ReadFromFile@{ReadFromFile}}
+\index{ReadFromFile@{ReadFromFile}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ReadFromFile()}{ReadFromFile()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool \mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}}$<$ T $>$\+::\+Read\+From\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{fname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function which loades state of the structure from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fname} & name of the file, where data is stored. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if succesfuul, false if no. 
+\end{DoxyReturn}
+\Hypertarget{class_singly_linkedlist_af3c7c0a6be6038fc9b2d09ee875c35ee}\label{class_singly_linkedlist_af3c7c0a6be6038fc9b2d09ee875c35ee} 
+\index{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!SaveToFile@{SaveToFile}}
+\index{SaveToFile@{SaveToFile}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SaveToFile()}{SaveToFile()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool \mbox{\hyperlink{class_singly_linkedlist}{Singly\+Linkedlist}}$<$ T $>$\+::\+Save\+To\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{fname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function which saves the current state of the structure to a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fname} & name of the file, where data will be stored. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if succesfuul, false if no. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/source/repos/3831c825-\/gr02-\/repo/\+Project/\+SLL\+\_\+proj/classes.\+h\end{DoxyCompactItemize}

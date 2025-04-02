@@ -1,0 +1,134 @@
+.TH "SinglyLinkedlist< T >" 3 "SLL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SinglyLinkedlist< T > \- A class representing a SLL\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <classes\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSinglyLinkedlist\fP ()"
+.br
+.RI "Default constructor\&. "
+.ti -1c
+.RI "\fBSinglyLinkedlist\fP (\fBSinglyLinkedlist\fP &SLL)"
+.br
+.RI "Copy constructor\&. "
+.ti -1c
+.RI "\fBSinglyLinkedlist\fP (\fBSinglyLinkedlist\fP &&SLL)"
+.br
+.RI "Move constructor\&. "
+.ti -1c
+.RI "\fB~SinglyLinkedlist\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "void \fBinsertNode\fP (T data)"
+.br
+.RI "A function which adds a new element to the container\&. "
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.RI "A function which prints the whole list\&. "
+.ti -1c
+.RI "void \fBoperator=\fP (const \fBSinglyLinkedlist\fP &SLL)"
+.br
+.RI "An overloaded assignment operator\&. "
+.ti -1c
+.RI "\fBSinglyLinkedlist\fP & \fBoperator=\fP (\fBSinglyLinkedlist\fP &&SLL)"
+.br
+.RI "An overloaded move operator\&. "
+.ti -1c
+.RI "std::shared_ptr< \fBNode\fP< T > > \fBget\fP (T val)"
+.br
+.RI "A function searches for a specific element in the container\&. "
+.ti -1c
+.RI "void \fBsort\fP ()"
+.br
+.RI "A function sorting the list in ascending order, bubble sort algorithm is used\&. "
+.ti -1c
+.RI "bool \fBSaveToFile\fP (std::string fname)"
+.br
+.RI "A function which saves the current state of the structure to a file\&. "
+.ti -1c
+.RI "bool \fBReadFromFile\fP (std::string fname)"
+.br
+.RI "A function which loades state of the structure from a file\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename T>
+.br
+class SinglyLinkedlist< T >"A class representing a SLL\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename T > std::shared_ptr< \fBNode\fP< T > > \fBSinglyLinkedlist\fP< T >::get (T val)\fR [inline]\fP"
+
+.PP
+A function searches for a specific element in the container\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIval\fP value of the searched element\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the searched element, if not presented the head is returned\&. 
+.RE
+.PP
+
+.SS "template<typename T > void \fBSinglyLinkedlist\fP< T >::insertNode (T data)\fR [inline]\fP"
+
+.PP
+A function which adds a new element to the container\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP information to be stored in the new node\&. 
+.RE
+.PP
+
+.SS "template<typename T > bool \fBSinglyLinkedlist\fP< T >::ReadFromFile (std::string fname)\fR [inline]\fP"
+
+.PP
+A function which loades state of the structure from a file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfname\fP name of the file, where data is stored\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if succesfuul, false if no\&. 
+.RE
+.PP
+
+.SS "template<typename T > bool \fBSinglyLinkedlist\fP< T >::SaveToFile (std::string fname)\fR [inline]\fP"
+
+.PP
+A function which saves the current state of the structure to a file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfname\fP name of the file, where data will be stored\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if succesfuul, false if no\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SLL from the source code\&.

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_node" xml:lang="en-US">
+<title>Node&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Node&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>A class representing node. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;classes.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_node_1a0ac1d44cfe588be564acf25485029bd8"/><emphasis role="strong">Node</emphasis> ()</para>
+
+<para>A default constructor. </para>
+</listitem>
+            <listitem><para><link linkend="_class_node_1a0692b16d246460bf94c18d49592facdd">Node</link> (T <link linkend="_class_node_1ac450c71a8677a38d306361f9ced518d3">data</link>)</para>
+
+<para>A constructor. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_node_1ae923d0417581dd19784d55b901f0f7f0"/><emphasis role="strong">~Node</emphasis> ()</para>
+
+<para>Destructor. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_node_1ac450c71a8677a38d306361f9ced518d3"/>T <emphasis role="strong">data</emphasis></para>
+
+<para>Variable which holds data stored in the node. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_node_1aabde3ceb60ec360acf78cfafb12d334e"/>std::shared_ptr&lt; <link linkend="_class_node">Node</link>&lt; T &gt; &gt; <emphasis role="strong">next</emphasis></para>
+
+<para>Pointer to another node. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<simplesect><title>template&lt;typename T&gt;<?linebreak?>class Node&lt; T &gt;</title></simplesect>
+
+<para>A class representing node. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_node_1a0692b16d246460bf94c18d49592facdd"/><section>
+    <title>Node()</title>
+<indexterm><primary>Node</primary><secondary>Node&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Node&lt; T &gt;</primary><secondary>Node</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_class_node">Node</link>&lt; T &gt;<link linkend="_class_node">::Node</link> (T data)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>A constructor. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>information to be stored in the node. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h</section>
+</section>

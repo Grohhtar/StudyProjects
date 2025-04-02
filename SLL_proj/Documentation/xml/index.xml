@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_node" kind="class"><name>Node</name>
+    <member refid="class_node_1ac450c71a8677a38d306361f9ced518d3" kind="variable"><name>data</name></member>
+    <member refid="class_node_1aabde3ceb60ec360acf78cfafb12d334e" kind="variable"><name>next</name></member>
+    <member refid="class_node_1a0ac1d44cfe588be564acf25485029bd8" kind="function"><name>Node</name></member>
+    <member refid="class_node_1a0692b16d246460bf94c18d49592facdd" kind="function"><name>Node</name></member>
+    <member refid="class_node_1ae923d0417581dd19784d55b901f0f7f0" kind="function"><name>~Node</name></member>
+  </compound>
+  <compound refid="struct_person" kind="struct"><name>Person</name>
+    <member refid="struct_person_1a7594663aadc0de77616506df8a2f4128" kind="variable"><name>name</name></member>
+    <member refid="struct_person_1acf9db1a60683f40b20ae569d29852d69" kind="variable"><name>age</name></member>
+  </compound>
+  <compound refid="class_singly_linkedlist" kind="class"><name>SinglyLinkedlist</name>
+    <member refid="class_singly_linkedlist_1adfce263a4ceafe245a2cee5ef0d639f8" kind="variable"><name>head</name></member>
+    <member refid="class_singly_linkedlist_1ab21c739e2823a5bdf82f01b96b7d07b6" kind="function"><name>SinglyLinkedlist</name></member>
+    <member refid="class_singly_linkedlist_1a3683f45bb8d8091d6dc688fc566390ff" kind="function"><name>SinglyLinkedlist</name></member>
+    <member refid="class_singly_linkedlist_1a32007127454dc0d5bac81c235239ecec" kind="function"><name>SinglyLinkedlist</name></member>
+    <member refid="class_singly_linkedlist_1a333eb330d5ae93fb2abd17fbe72bb18d" kind="function"><name>~SinglyLinkedlist</name></member>
+    <member refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" kind="function"><name>insertNode</name></member>
+    <member refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" kind="function"><name>print</name></member>
+    <member refid="class_singly_linkedlist_1a6f2995d5c09daa1024c0be1b330319ee" kind="function"><name>operator=</name></member>
+    <member refid="class_singly_linkedlist_1ab5918a5cb0348106823b427a5649ea6c" kind="function"><name>operator=</name></member>
+    <member refid="class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074" kind="function"><name>get</name></member>
+    <member refid="class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1" kind="function"><name>sort</name></member>
+    <member refid="class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee" kind="function"><name>SaveToFile</name></member>
+    <member refid="class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a" kind="function"><name>ReadFromFile</name></member>
+  </compound>
+  <compound refid="classes_8h" kind="file"><name>classes.h</name>
+    <member refid="classes_8h_1a0078213bf7e25d8aa34463c4de2a7a2b" kind="define"><name>CLASSES_H</name></member>
+  </compound>
+  <compound refid="_s_l_l__proj_8cpp" kind="file"><name>SLL_proj.cpp</name>
+    <member refid="_s_l_l__proj_8cpp_1ae2ebd6fa2bb6f25116fd60acc5ddb683" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="_s_l_l__proj_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_singly_linkedlist" kind="class" language="C++" prot="public">
+    <compoundname>SinglyLinkedlist</compoundname>
+    <includes refid="classes_8h" local="no">classes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_singly_linkedlist_1adfce263a4ceafe245a2cee5ef0d639f8" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_node" kindref="compound">Node</ref>&lt; T &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;Node&lt;T&gt; &gt; SinglyLinkedlist&lt; T &gt;::head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <qualifiedname>SinglyLinkedlist::head</qualifiedname>
+        <briefdescription>
+<para>Pointer to the head of the list. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="50" column="17" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_singly_linkedlist_1ab21c739e2823a5bdf82f01b96b7d07b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SinglyLinkedlist&lt; T &gt;::SinglyLinkedlist</definition>
+        <argsstring>()</argsstring>
+        <name>SinglyLinkedlist</name>
+        <qualifiedname>SinglyLinkedlist::SinglyLinkedlist</qualifiedname>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="55" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1a3683f45bb8d8091d6dc688fc566390ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SinglyLinkedlist&lt; T &gt;::SinglyLinkedlist</definition>
+        <argsstring>(SinglyLinkedlist &amp;SLL)</argsstring>
+        <name>SinglyLinkedlist</name>
+        <qualifiedname>SinglyLinkedlist::SinglyLinkedlist</qualifiedname>
+        <param>
+          <type><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist</ref> &amp;</type>
+          <declname>SLL</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="58" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="58" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1a32007127454dc0d5bac81c235239ecec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SinglyLinkedlist&lt; T &gt;::SinglyLinkedlist</definition>
+        <argsstring>(SinglyLinkedlist &amp;&amp;SLL)</argsstring>
+        <name>SinglyLinkedlist</name>
+        <qualifiedname>SinglyLinkedlist::SinglyLinkedlist</qualifiedname>
+        <param>
+          <type><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist</ref> &amp;&amp;</type>
+          <declname>SLL</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="82" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="82" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1a333eb330d5ae93fb2abd17fbe72bb18d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SinglyLinkedlist&lt; T &gt;::~SinglyLinkedlist</definition>
+        <argsstring>()</argsstring>
+        <name>~SinglyLinkedlist</name>
+        <qualifiedname>SinglyLinkedlist::~SinglyLinkedlist</qualifiedname>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="110" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SinglyLinkedlist&lt; T &gt;::insertNode</definition>
+        <argsstring>(T data)</argsstring>
+        <name>insertNode</name>
+        <qualifiedname>SinglyLinkedlist::insertNode</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>A function which adds a new element to the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information to be stored in the new node. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="119" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="119" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SinglyLinkedlist&lt; T &gt;::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <qualifiedname>SinglyLinkedlist::print</qualifiedname>
+        <briefdescription>
+<para>A function which prints the whole list. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="138" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="138" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1a6f2995d5c09daa1024c0be1b330319ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SinglyLinkedlist&lt; T &gt;::operator=</definition>
+        <argsstring>(const SinglyLinkedlist &amp;SLL)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>SinglyLinkedlist::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist</ref> &amp;</type>
+          <declname>SLL</declname>
+        </param>
+        <briefdescription>
+<para>An overloaded assignment operator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="157" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="157" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1ab5918a5cb0348106823b427a5649ea6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist</ref> &amp;</type>
+        <definition>SinglyLinkedlist &amp; SinglyLinkedlist&lt; T &gt;::operator=</definition>
+        <argsstring>(SinglyLinkedlist &amp;&amp;SLL)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>SinglyLinkedlist::operator=</qualifiedname>
+        <param>
+          <type><ref refid="class_singly_linkedlist" kindref="compound">SinglyLinkedlist</ref> &amp;&amp;</type>
+          <declname>SLL</declname>
+        </param>
+        <briefdescription>
+<para>An overloaded move operator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="179" column="18" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="179" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_node" kindref="compound">Node</ref>&lt; T &gt; &gt;</type>
+        <definition>std::shared_ptr&lt; Node&lt; T &gt; &gt; SinglyLinkedlist&lt; T &gt;::get</definition>
+        <argsstring>(T val)</argsstring>
+        <name>get</name>
+        <qualifiedname>SinglyLinkedlist::get</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>A function searches for a specific element in the container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value of the searched element. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the searched element, if not presented the head is returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="212" column="17" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="212" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SinglyLinkedlist&lt; T &gt;::sort</definition>
+        <argsstring>()</argsstring>
+        <name>sort</name>
+        <qualifiedname>SinglyLinkedlist::sort</qualifiedname>
+        <briefdescription>
+<para>A function sorting the list in ascending order, bubble sort algorithm is used. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="236" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="236" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SinglyLinkedlist&lt; T &gt;::SaveToFile</definition>
+        <argsstring>(std::string fname)</argsstring>
+        <name>SaveToFile</name>
+        <qualifiedname>SinglyLinkedlist::SaveToFile</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>A function which saves the current state of the structure to a file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the file, where data will be stored. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if succesfuul, false if no. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="276" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="276" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SinglyLinkedlist&lt; T &gt;::ReadFromFile</definition>
+        <argsstring>(std::string fname)</argsstring>
+        <name>ReadFromFile</name>
+        <qualifiedname>SinglyLinkedlist::ReadFromFile</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>A function which loades state of the structure from a file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the file, where data is stored. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if succesfuul, false if no. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="312" column="6" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="312" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A class representing a SLL. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" line="47" column="1" bodyfile="C:/source/repos/3831c825-gr02-repo/Project/SLL_proj/classes.h" bodystart="48" bodyend="338"/>
+    <listofallmembers>
+      <member refid="class_singly_linkedlist_1af8bb10b5fcdc71d5bd12e72c78869074" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>get</name></member>
+      <member refid="class_singly_linkedlist_1adfce263a4ceafe245a2cee5ef0d639f8" prot="private" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>head</name></member>
+      <member refid="class_singly_linkedlist_1af88f856a22f1a4178a0b55d27708d908" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>insertNode</name></member>
+      <member refid="class_singly_linkedlist_1a6f2995d5c09daa1024c0be1b330319ee" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>operator=</name></member>
+      <member refid="class_singly_linkedlist_1ab5918a5cb0348106823b427a5649ea6c" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>operator=</name></member>
+      <member refid="class_singly_linkedlist_1a593befffa2ecefb24f25d48792f83468" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>print</name></member>
+      <member refid="class_singly_linkedlist_1ae7058b254d50507e66e60c236bd64b5a" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>ReadFromFile</name></member>
+      <member refid="class_singly_linkedlist_1af3c7c0a6be6038fc9b2d09ee875c35ee" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>SaveToFile</name></member>
+      <member refid="class_singly_linkedlist_1ab21c739e2823a5bdf82f01b96b7d07b6" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>SinglyLinkedlist</name></member>
+      <member refid="class_singly_linkedlist_1a3683f45bb8d8091d6dc688fc566390ff" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>SinglyLinkedlist</name></member>
+      <member refid="class_singly_linkedlist_1a32007127454dc0d5bac81c235239ecec" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>SinglyLinkedlist</name></member>
+      <member refid="class_singly_linkedlist_1aa970f76dd94eba8526d936c862a56dd1" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>sort</name></member>
+      <member refid="class_singly_linkedlist_1a333eb330d5ae93fb2abd17fbe72bb18d" prot="public" virt="non-virtual"><scope>SinglyLinkedlist</scope><name>~SinglyLinkedlist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

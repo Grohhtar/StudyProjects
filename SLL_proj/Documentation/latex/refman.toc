@@ -1,0 +1,19 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Class Index}{1}{}%
+\contentsline {section}{\numberline {1.1}Class List}{1}{}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{}%
+\contentsline {section}{\numberline {2.1}File List}{3}{}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{}%
+\contentsline {section}{\numberline {3.1}Node$<$ T $>$ Class Template Reference}{5}{}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{}%
+\contentsline {subsection}{\numberline {3.1.2}Constructor \& Destructor Documentation}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Node()}{5}{}%
+\contentsline {section}{\numberline {3.2}Singly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Linkedlist$<$ T $>$ Class Template Reference}{6}{}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{}%
+\contentsline {subsection}{\numberline {3.2.2}Member Function Documentation}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}get()}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}insertNode()}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}ReadFromFile()}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}SaveToFile()}{7}{}%
+\contentsline {chapter}{\numberline {4}File Documentation}{9}{}%
+\contentsline {section}{\numberline {4.1}classes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{9}{}%

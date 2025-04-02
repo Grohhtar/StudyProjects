@@ -1,0 +1,12 @@
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}}{5}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!Node@{Node}}{5}
+\indexentry{Node@{Node}!Node$<$ T $>$@{Node$<$ T $>$}}{5}
+\indexentry{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}{6}
+\indexentry{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!get@{get}}{7}
+\indexentry{get@{get}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}{7}
+\indexentry{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!insertNode@{insertNode}}{7}
+\indexentry{insertNode@{insertNode}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}{7}
+\indexentry{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!ReadFromFile@{ReadFromFile}}{7}
+\indexentry{ReadFromFile@{ReadFromFile}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}{7}
+\indexentry{SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}!SaveToFile@{SaveToFile}}{7}
+\indexentry{SaveToFile@{SaveToFile}!SinglyLinkedlist$<$ T $>$@{SinglyLinkedlist$<$ T $>$}}{7}
