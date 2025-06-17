@@ -1,0 +1,9 @@
+﻿  CppFunctions.cpp
+  Engine.cpp
+  Playfair.cpp
+     Создается библиотека C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\x64\Release\PlayfairCipherC++.lib и объект C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\x64\Release\PlayfairCipherC++.exp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 428 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  PlayfairCipherC++.vcxproj -> C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\x64\Release\PlayfairCipherC++.exe

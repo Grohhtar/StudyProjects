@@ -1,0 +1,3 @@
+﻿     Создается библиотека C:\source\StudyProjects\PlayfairCipher\x64\Debug\PlayfairCipherAsm.lib и объект C:\source\StudyProjects\PlayfairCipher\x64\Debug\PlayfairCipherAsm.exp
+PlayfairCipherAsm.exp : warning LNK4070: директива /OUT:AsmLibrary.dll в .EXP отличается от имени выходного файла "C:\source\StudyProjects\PlayfairCipher\x64\Debug\PlayfairCipherAsm.dll"; директива игнорируется
+  PlayfairCipherAsm.vcxproj -> C:\source\StudyProjects\PlayfairCipher\x64\Debug\PlayfairCipherAsm.dll

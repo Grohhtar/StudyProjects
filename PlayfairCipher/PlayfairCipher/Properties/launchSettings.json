@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PlayfairCipherUI": {
+      "commandName": "Executable",
+      "executablePath": "C:\\APL\\APL_Project\\PlayfairCipher\\PlayfairCipher\\bin\\Debug\\net8.0-windows\\PlayfairCipherUI.exe"
+    }
+  }
+}

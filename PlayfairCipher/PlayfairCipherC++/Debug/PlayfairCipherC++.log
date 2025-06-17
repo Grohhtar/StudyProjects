@@ -1,0 +1,11 @@
+﻿  CppFunctions.cpp
+  Engine.cpp
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipherC++\Engine.cpp(6,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipherC++\Engine.cpp(40,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipherC++\Engine.cpp(110,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipherC++\Engine.cpp(218,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipherC++\Engine.cpp(227,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Playfair.cpp
+  Создание кода...
+     Создается библиотека C:\APL\APL_Project\PlayfairCipher\Debug\PlayfairCipherC++.lib и объект C:\APL\APL_Project\PlayfairCipher\Debug\PlayfairCipherC++.exp
+  PlayfairCipherC++.vcxproj -> C:\APL\APL_Project\PlayfairCipher\Debug\PlayfairCipherC++.dll

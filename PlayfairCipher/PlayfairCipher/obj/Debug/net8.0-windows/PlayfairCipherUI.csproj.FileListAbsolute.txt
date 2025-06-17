@@ -1,0 +1,110 @@
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.lref
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.g.resources
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfoInputs.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfo.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.csproj.CoreCompileInputs.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.sourcelink.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\refint\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.genruntimeconfig.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\ref\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.lref
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.g.resources
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfoInputs.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfo.cs
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.csproj.CoreCompileInputs.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.sourcelink.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\refint\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.genruntimeconfig.cache
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\ref\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\x64\Debug\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\x64\Debug\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\x64\Debug\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\x64\Debug\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\cccsk\OneDrive\Desktop\APL Project\APL_Project\PlayfairCipher\PlayfairCipher\x64\Debug\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.cache
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.lref
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.g.resources
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfoInputs.cache
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfo.cs
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.csproj.CoreCompileInputs.cache
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.sourcelink.json
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\refint\PlayfairCipherUI.dll
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.genruntimeconfig.cache
+C:\Users\ork11\source\repos\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\ref\PlayfairCipherUI.dll
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\App.g.cs
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.cache
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.lref
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.baml
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.g.resources
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfoInputs.cache
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfo.cs
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.csproj.CoreCompileInputs.cache
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.sourcelink.json
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\refint\PlayfairCipherUI.dll
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.genruntimeconfig.cache
+C:\APL\APL_Project\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\ref\PlayfairCipherUI.dll
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.exe
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.deps.json
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.runtimeconfig.json
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\bin\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\App.g.cs
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.cache
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI_MarkupCompile.lref
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\MainWindow.baml
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.g.resources
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfoInputs.cache
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.AssemblyInfo.cs
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.csproj.CoreCompileInputs.cache
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.sourcelink.json
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.dll
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\refint\PlayfairCipherUI.dll
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.pdb
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\PlayfairCipherUI.genruntimeconfig.cache
+C:\source\StudyProjects\PlayfairCipher\PlayfairCipher\obj\Debug\net8.0-windows\ref\PlayfairCipherUI.dll
